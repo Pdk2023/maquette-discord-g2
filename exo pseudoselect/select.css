@@ -1,0 +1,82 @@
+a.google {color: brown;}
+.google:hover{
+    text-transform: uppercase;
+    color: rgba(165, 42, 42, 0.836);
+}
+.google::before{
+    content:">"
+  }
+.google::after{
+    content:"<";
+  }
+a.wikipedia{color: blueviolet;}
+.wikipedia:hover{
+    text-transform: uppercase;
+    color: rgba(137, 43, 226, 0.74);
+}
+
+.wikipedia::before{
+    content:">"
+  }
+.wikipedia::after{
+    content:"<";
+  }
+a.facebook{color: darkblue;}
+.facebook:hover{
+    text-transform: uppercase;
+}
+
+.facebook::before{
+    content:">"
+  }
+.facebook::after{
+    content:"<";
+  }
+a.youtube{color: fuchsia ;}
+.youtube:hover{
+    text-transform: uppercase;
+    color: rgba(255, 0, 255, 0.486);
+}
+
+.youtube::before{
+    content:">"
+  }
+.youtube::after{
+    content:"<";
+  }
+a.amazon{color: black;}
+.amazon:hover{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+.amazon::before{
+    content:">"
+  }
+.amazon::after{
+    content:"<";
+  }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100% ;
+}
+th, td {
+  border: 1px solid blue;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background-color: aqua;
+}
+tr:nth-child(odd){
+  background-color: blueviolet;
+}
+tr:hover{
+  background-color: brown;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: chocolate;
+}
