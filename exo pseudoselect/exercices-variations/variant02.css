@@ -1,0 +1,54 @@
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+span{
+    background-color: rgb(153, 0, 255);
+    color: black;
+}
+div p{
+    color: rgb(153, 0, 255);
+    font-size: 12px;
+}
+h3{
+    background-color: rgb(153, 0, 255);
+    padding: 2px;
+}
+nav ul li{
+    display: inline-table;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 2px;
+}
+section{
+    text-align: center;
+}
+ul{
+    padding: 0;
+}    
+.bouton1{
+    background-color: rgb(0, 100, 33);
+    padding: 2px;
+    color: white;
+
+}
+.bouton2{
+    background-color: rgba(153, 0, 255);
+    padding: 2px;
+}
+body footer{
+    background-color: black;
+    padding: 20px;
+}
+footer div{
+    background-color: rgba(153, 0, 255);
+    color: black;
+    padding: 10px;
+}
